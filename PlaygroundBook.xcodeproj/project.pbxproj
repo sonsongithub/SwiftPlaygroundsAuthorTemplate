@@ -92,7 +92,6 @@
 
 /* Begin PBXFileReference section */
 		143DBD9D214A5D85001DE30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		143DBDA0214A5E13001DE30E /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -244,7 +243,6 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
-				143DBDA0214A5E13001DE30E /* Assets.car */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 				143DBD9D214A5D85001DE30E /* Assets.xcassets */,
@@ -276,9 +274,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E086DC52051C5A7004D8D25 /* Build configuration list for PBXNativeTarget "PlaygroundBook" */;
 			buildPhases = (
-				143DBD9F214A5DDA001DE30E /* Create Assets.car */,
 				5E086DD22051E35D004D8D25 /* Copy Book Contents */,
 				5E086DC62051DB17004D8D25 /* Resources */,
+				143DBD9F214A5DDA001DE30E /* Create Assets.car */,
 			);
 			buildRules = (
 				5E086DD42051E415004D8D25 /* PBXBuildRule */,
@@ -402,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "xcrun actool ${SRCROOT}/PlaygroundBook/PrivateResources/Assets.xcassets --compile ${SRCROOT}/PlaygroundBook/PrivateResources/ --platform iphoneos --minimum-deployment-target 9.4";
+			shellScript = "xcrun actool ${SRCROOT}/PlaygroundBook/PrivateResources/Assets.xcassets --compile ${CODESIGNING_FOLDER_PATH}/Contents/PrivateResources --platform iphoneos --minimum-deployment-target 9.4";
 		};
 		5EA2E3DD2056FB2900416A35 /* Embed Playground Book PublicResources & PrivateResources */ = {
 			isa = PBXShellScriptBuildPhase;
