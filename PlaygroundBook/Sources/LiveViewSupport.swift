@@ -21,8 +21,6 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
     guard let liveViewController = viewController as? LiveViewController else {
         fatalError("LiveView.storyboard's initial scene is not a LiveViewController; please either update the storyboard or this function")
     }
-    
-    viewController.view.backgroundColor = .blue
 
     return liveViewController
 }

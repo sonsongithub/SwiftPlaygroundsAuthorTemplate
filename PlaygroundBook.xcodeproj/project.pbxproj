@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143DBDA1214A630C001DE30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143DBD9D214A5D85001DE30E /* Assets.xcassets */; };
+		14D7CF5621A1590400EDDA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7CF5421A158F100EDDA4B /* Assets.xcassets */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -91,14 +91,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		143DBD9D214A5D85001DE30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D7CF5421A158F100EDDA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
 		5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E0E37542065A065008FA4BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5E1004BE208E7F6E00BCFE70 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E2A7AE6204F630600F4E17A /* BaseBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewSupport.swift; sourceTree = "<group>"; };
 		5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,7 +174,6 @@
 		5E1004BD208E7F6E00BCFE70 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				5E1004BE208E7F6E00BCFE70 /* LICENSE.txt */,
 			);
 			path = LICENSE;
 			sourceTree = "<group>";
@@ -243,9 +241,9 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				14D7CF5421A158F100EDDA4B /* Assets.xcassets */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
-				143DBD9D214A5D85001DE30E /* Assets.xcassets */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -276,7 +274,7 @@
 			buildPhases = (
 				5E086DD22051E35D004D8D25 /* Copy Book Contents */,
 				5E086DC62051DB17004D8D25 /* Resources */,
-				143DBD9F214A5DDA001DE30E /* Create Assets.car */,
+				14D7CF5321A1581E00EDDA4B /* Create Assets.car */,
 			);
 			buildRules = (
 				5E086DD42051E415004D8D25 /* PBXBuildRule */,
@@ -340,9 +338,11 @@
 					};
 					5EA2E3BC2056F35A00416A35 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					5EF2F9AA2054BBF300191409 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -380,7 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143DBDA1214A630C001DE30E /* Assets.xcassets in Resources */,
+				14D7CF5621A1590400EDDA4B /* Assets.xcassets in Resources */,
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,19 +388,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		143DBD9F214A5DDA001DE30E /* Create Assets.car */ = {
+		14D7CF5321A1581E00EDDA4B /* Create Assets.car */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 			);
 			name = "Create Assets.car";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "xcrun actool ${SRCROOT}/PlaygroundBook/PrivateResources/Assets.xcassets --compile ${CODESIGNING_FOLDER_PATH}/Contents/PrivateResources --platform iphoneos --minimum-deployment-target 9.4";
+			shellScript = "xcrun actool ${SRCROOT}/PlaygroundBook/PrivateResources/Assets.xcassets --compile ${CODESIGNING_FOLDER_PATH}/Contents/PrivateResources --platform iphoneos --minimum-deployment-target 10.0\n";
 		};
 		5EA2E3DD2056FB2900416A35 /* Embed Playground Book PublicResources & PrivateResources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -416,7 +420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\necho ${PUBLICRESOURCES_FOLDER_PATH}\necho ${PRIVATERESOURCES_FOLDER_PATH}\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"";
+			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -569,7 +573,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -623,7 +627,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -644,7 +648,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"\"$(OTHER_FRAMEWORKS_DIR)\"",
 					"$(inherited)",
@@ -667,7 +670,6 @@
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"\"$(OTHER_FRAMEWORKS_DIR)\"",
 					"$(inherited)",
