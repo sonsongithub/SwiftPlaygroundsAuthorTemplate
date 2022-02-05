@@ -18,19 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		73G2sEh0l87FuqWe/3Q6ZTf/okk=
+		eVFpw2dTe7zzRugAJwT2R4YcT1I=
+		</data>
+		<key>Modules/LiveViewHost.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		3Tu38RCiEIh5s4kZa3ve7Fx0b/U=
+		</data>
+		<key>Modules/LiveViewHost.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		i72O33qohv3QyNjdPj5c1WvfpyI=
 		</data>
 		<key>Modules/LiveViewHost.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Ps2iteSitHtmJY0yiAB7gdKLw04=
+		3Tu38RCiEIh5s4kZa3ve7Fx0b/U=
 		</data>
 		<key>Modules/LiveViewHost.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RVbEkKgZolFqgtjmXFAnSsOcUlo=
+		i72O33qohv3QyNjdPj5c1WvfpyI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		wbBJ01HD+QOtrC3j8UYGj4MLjkc=
+		</data>
+		<key>version.plist</key>
+		<data>
+		FrBzIMm3Oz+QpDAa77/u37MQeWc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -68,26 +80,48 @@
 			wanDFq4ApyHB5E7dbuWBr/hVxldpQrNLioR3wKSFAI4=
 			</data>
 		</dict>
+		<key>Modules/LiveViewHost.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3Tu38RCiEIh5s4kZa3ve7Fx0b/U=
+			</data>
+			<key>hash2</key>
+			<data>
+			hy0WXVHJrzCkSywoPEZtooaSqM9H7oi3A70butERv6o=
+			</data>
+		</dict>
+		<key>Modules/LiveViewHost.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i72O33qohv3QyNjdPj5c1WvfpyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			U71H50bCj55NLKIUDCdRHup+5DURMsFClK7fh/LqC28=
+			</data>
+		</dict>
 		<key>Modules/LiveViewHost.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ps2iteSitHtmJY0yiAB7gdKLw04=
+			3Tu38RCiEIh5s4kZa3ve7Fx0b/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			CTZkfayiWhXeTGNTstNJvle1w9QLNi7IYeAxaIRXEw8=
+			hy0WXVHJrzCkSywoPEZtooaSqM9H7oi3A70butERv6o=
 			</data>
 		</dict>
 		<key>Modules/LiveViewHost.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RVbEkKgZolFqgtjmXFAnSsOcUlo=
+			i72O33qohv3QyNjdPj5c1WvfpyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			daGehuJf+YcI+2oGeyAqwJgz25GRwkZfiDgoQLs6DXk=
+			U71H50bCj55NLKIUDCdRHup+5DURMsFClK7fh/LqC28=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -101,10 +135,21 @@
 			oCZJDkJCW/8imzJCKOZeEEtXZrQHkn5YWvOfK4yoYBc=
 			</data>
 		</dict>
+		<key>version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FrBzIMm3Oz+QpDAa77/u37MQeWc=
+			</data>
+			<key>hash2</key>
+			<data>
+			iGl06w1ZsoJy3yvkE6YAewEJra1Yl6Fkf+S6OuzfW/I=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -135,24 +180,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -188,13 +221,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

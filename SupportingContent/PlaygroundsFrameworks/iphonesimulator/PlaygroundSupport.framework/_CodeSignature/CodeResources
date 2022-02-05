@@ -10,19 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AINBBMh1ER0Ho3LlVgvyXLz3DUI=
+		ELOIycgB1Yzl8eQ7As4djh6Ne60=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ZEPYv/24JqsHekLqqZ9b86wlXMA=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		NkvpIETH/Uk9Lv3DIjcTwJ8s3Hs=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		ZEPYv/24JqsHekLqqZ9b86wlXMA=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		NkvpIETH/Uk9Lv3DIjcTwJ8s3Hs=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		JRox+2pUtjb2LBsFXdrszoS/Sdk=
+		</data>
+		<key>Modules/PlaygroundSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		fIdaqNxHdUH7VLmWzq0vwH+2V10=
 		</data>
 		<key>Modules/PlaygroundSupport.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		mS0IzztVK5K/Qtx6nK2wn1CKIXA=
+		JRox+2pUtjb2LBsFXdrszoS/Sdk=
 		</data>
 		<key>Modules/PlaygroundSupport.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4rCYi3LGK0bTgD+STXk4/K46EYA=
+		fIdaqNxHdUH7VLmWzq0vwH+2V10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		naQq1dmrWEVVlq+/T3hlDhMKT4Y=
+		</data>
+		<key>version.plist</key>
+		<data>
+		FrBzIMm3Oz+QpDAa77/u37MQeWc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -38,26 +66,92 @@
 			BI1I38xyR02dzowCn/A+j24a00lB3p03Vw7tZc5Qylo=
 			</data>
 		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZEPYv/24JqsHekLqqZ9b86wlXMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			3DwAfD0lFXXUFJK/+ms/F4VvT1MIhAHaOs5oDRlfm8E=
+			</data>
+		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NkvpIETH/Uk9Lv3DIjcTwJ8s3Hs=
+			</data>
+			<key>hash2</key>
+			<data>
+			U71tBS6baNJHLMRxg9YNCNy+qjAMVa8UIMCSTkkJc6w=
+			</data>
+		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZEPYv/24JqsHekLqqZ9b86wlXMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			3DwAfD0lFXXUFJK/+ms/F4VvT1MIhAHaOs5oDRlfm8E=
+			</data>
+		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NkvpIETH/Uk9Lv3DIjcTwJ8s3Hs=
+			</data>
+			<key>hash2</key>
+			<data>
+			U71tBS6baNJHLMRxg9YNCNy+qjAMVa8UIMCSTkkJc6w=
+			</data>
+		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JRox+2pUtjb2LBsFXdrszoS/Sdk=
+			</data>
+			<key>hash2</key>
+			<data>
+			v7HZwMkypoV59RFYT1CFKUoIAKw68vGeV8Z33MEAXfc=
+			</data>
+		</dict>
+		<key>Modules/PlaygroundSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fIdaqNxHdUH7VLmWzq0vwH+2V10=
+			</data>
+			<key>hash2</key>
+			<data>
+			jUfqE1crvdpmsw0PgFRxxbefnyycMJaQuQkoE1C6sh4=
+			</data>
+		</dict>
 		<key>Modules/PlaygroundSupport.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mS0IzztVK5K/Qtx6nK2wn1CKIXA=
+			JRox+2pUtjb2LBsFXdrszoS/Sdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/r162AOs/GyOQM4NXJ/hHlAUpt5qJqN7/mhPphGxX4=
+			v7HZwMkypoV59RFYT1CFKUoIAKw68vGeV8Z33MEAXfc=
 			</data>
 		</dict>
 		<key>Modules/PlaygroundSupport.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4rCYi3LGK0bTgD+STXk4/K46EYA=
+			fIdaqNxHdUH7VLmWzq0vwH+2V10=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNWO2zJpe2j2dpOnKVDdjEHoTWcK9Q235vzuxhr3+D8=
+			jUfqE1crvdpmsw0PgFRxxbefnyycMJaQuQkoE1C6sh4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -71,10 +165,21 @@
 			9OPknZ22wbFiKF2TyTByy43k3bQHOdYthbB+Gw+CykI=
 			</data>
 		</dict>
+		<key>version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FrBzIMm3Oz+QpDAa77/u37MQeWc=
+			</data>
+			<key>hash2</key>
+			<data>
+			iGl06w1ZsoJy3yvkE6YAewEJra1Yl6Fkf+S6OuzfW/I=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -105,24 +210,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -158,13 +251,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
